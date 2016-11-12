@@ -19,7 +19,7 @@
 1. Gulp will lint your code on each commit, and will abort the commit unless all tests pass. Be sure to commit often to catch any linting errors. You can run each of the lint tasks individually if you wish to lint during development (recommended):
     * `$ gulp styles:lint` // CSS
     * `$ gulp scripts:lint` // JS
-    * `$ gulp html:lint` // HTML
+    * `$ gulp html:lint` // HTML (dist)
     * `$ gulp lint` // All
 2. Each commit must reference a valid Assembla ticket. Please add `re #<ticket number>` to the end of your commit message. You will receive the following warning if this is not followed, and the commit will fail: 
     * `Aborting commit. Your commit message is missing an Assembla ticket reference (e.g. re #38)`
