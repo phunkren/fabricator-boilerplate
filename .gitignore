@@ -1,0 +1,15 @@
+##########################
+# Misc
+##########################
+
+node_modules
+dist
+.sass-cache
+.DS_Store
+
+
+##########################
+# Deployment Credentials
+##########################
+
+deploy.json

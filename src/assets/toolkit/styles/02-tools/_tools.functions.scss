@@ -1,0 +1,13 @@
+/**
+ * Foundation functions are already in play. You can find the list here:
+ * http://foundation.zurb.com/sites/docs/sass-functions.html
+ */
+
+
+/**
+ * Custom Functions
+ */
+
+@function media-path($path) {
+  @return $media-path + $path;
+}

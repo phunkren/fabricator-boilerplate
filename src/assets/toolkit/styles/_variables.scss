@@ -1,0 +1,24 @@
+/**
+* Bootstrap
+**/
+
+@import 'bootstrap/variables';
+
+
+/**
+* Breakpoints
+**/
+
+$breakpoint-xsmall: 0;
+$breakpoint-small: 480px;
+$breakpoint-medium: 640px;
+$breakpoint-large: 1024px;
+// $breakpoint-xlarge;
+// $breakpoint-xxlarge;
+
+
+/**
+* Media Path
+**/
+
+$media-path: '/assets/toolkit/media/';

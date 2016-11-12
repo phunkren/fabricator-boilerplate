@@ -1,0 +1,29 @@
+/**
+ * ITCSS
+ * Import any newly-created partials from the self-titled file inside the respective subdirectory.
+ * e.g. Import a new tools partial using the 02-tools/_tools.scss file.
+ */
+
+@import 'foundation';
+@import 'variables';
+
+/* Settings */
+@import '01-settings/settings';
+
+/* Tools */
+@import '02-tools/tools';
+
+/* Generic */
+@import '03-generic/generic';
+
+/* Elements */
+@import '04-elements/elements';
+
+/* Objects */
+@import '05-objects/objects';
+
+/* Components */
+@import '06-components/components';
+
+/* Trumps */
+@import '07-trumps/trumps';

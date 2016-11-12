@@ -1,0 +1,4 @@
+Authtype Basic
+AuthName "Cohaesus"
+AuthUserFile /mnt/stor2-wc1-dfw1/403748/285sb021.codereach.co.uk/web/content/.htpasswd
+Require valid-user

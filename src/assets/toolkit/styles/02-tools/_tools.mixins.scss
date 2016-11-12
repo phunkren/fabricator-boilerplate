@@ -1,0 +1,16 @@
+/**
+ * Foundation mixins are already in play. You can find the list here:
+ * http://foundation.zurb.com/sites/docs/sass-mixins.html
+ */
+
+
+/**
+ * Custom Mixins
+ */
+
+// When using ::before and ::after you'll always need these three, so we're saving two lines of code every time you use this.
+@mixin pseudo($display: block, $pos: absolute, $content: '') {
+  content: $content;
+  display: $display;
+  position: $pos;
+}

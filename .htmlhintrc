@@ -1,0 +1,23 @@
+{
+  "tagname-lowercase": true,            // Tagname must be lowercase.
+  "attr-lowercase": ["viewBox"],        // Attribute name must be lowercase ( currently - True[Exceptions] )
+  "attr-value-double-quotes": true,     // Attribute value must closed by double quotes.
+  "attr-value-not-empty": true,         // Attribute must set value.
+  "attr-no-duplication": true,          // The same attribute can't be specified twice.
+  "doctype-first": true,                // Doctype must be first.
+  "tag-pair": true,                     // Tag must be paired.
+  "tag-self-close": false,              // The empty tag must closed by self.
+  "spec-char-escape": true,             // Special characters must be escaped.
+  "id-unique": true,                    // ID attributes must be unique in the document.
+  "src-not-empty": true,                // Src of img(script,link) must set value.
+  "title-require": false,               // <title> must be present in <head> tag.
+  "head-script-disabled": true,         // The script tag can not be used in head.
+  "alt-require": true,                  // Alt of img must be present and alt of area[href] and input[type=image] must be set value.
+  "doctype-html5": true,                // Doctype must be html5.
+  "id-class-value": false,              // Id and class value must meet some rules: underline, dash, hump.
+  "style-disabled": true,               // Style tag can not be used.
+  "space-tab-mixed-disabled": true,     // Spaces and tabs can not mixed in front of line.
+  "id-class-ad-disabled": true,         // Id and class can not use ad keyword, it will blocked by adblock software.
+  "href-abs-or-rel": false,             // Href must be absolute or relative.
+  "attr-unsafe-chars": true             // Attribute value cant not use unsafe chars.
+}

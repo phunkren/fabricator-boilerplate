@@ -1,0 +1,10 @@
+#!/bin/sh
+#
+# Regex to validate the commit msg to ensure that an Assembla ticket has been referenced.
+commit_regex="(re #[0-9])"
+error_msg="Aborting commit. Your commit message is missing an Assembla ticket reference (e.g. re #38)"
+
+if ! grep -iqE "$commit_regex" "$1"; then
+  echo "$error_msg" >&2
+  exit 1
+fi

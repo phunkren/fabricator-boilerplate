@@ -1,0 +1,21 @@
+/**
+ * Demo grid for the Structures page
+ */
+
+.grid-demo {
+
+  [class*="col-"] {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: $light-gray;
+    border: 1px solid $dark-gray;
+  }
+
+  hr {
+    margin: 40px 0;
+  }
+
+  h3 {
+    margin-top: 3rem;
+  }
+}
